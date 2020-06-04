@@ -1,0 +1,10 @@
+**********************************************
+Number of subjects converted: 416
+Sessions available: ses-M00
+Number of sessions ses-M00 found: 416 (100.0%)
+**********************************************
+
+Number of missing modalities for each session:
+
+ses-M00
+t1w: 0 (0.0%) 
