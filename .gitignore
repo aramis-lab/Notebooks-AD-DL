@@ -4,6 +4,16 @@ __pycache__/
 *$py.class
 .DS_Store
 
+# images
+images/*.pptx
+
+# Outputs
+data/OASIS_restricted_BIDS.tsv
+data/labels_lists
+data/OASIS_analysis.tsv
+data/OASIS_trainval_analysis.tsv
+data/OASIS_test_analysis.tsv
+
 # C extensions
 *.so
 
