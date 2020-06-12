@@ -13,6 +13,8 @@ data/labels_lists
 data/OASIS_analysis.tsv
 data/OASIS_trainval_analysis.tsv
 data/OASIS_test_analysis.tsv
+data/OASIS_BIDS_corr.tsv
+data/*biased*
 
 # C extensions
 *.so
