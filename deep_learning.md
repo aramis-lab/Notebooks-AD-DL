@@ -111,3 +111,5 @@ The layers seen before (convolutions, pooling) were adapted to work on 3D featur
 - Regions of Interest (ROI) defined by a neuroanatomical atlas. They can be given as volumes, using a bounding box that cover the region of the ROI or by segmenting them precisely and setting the voxels that do not belong to the region to 0. It is also possible to give slices of these regions.
 
 Whereas the aim of 2D slices and 3D patches is to cover the whole brain, a selection of of ROI rely on prior knowledge on the disease studied. In the case of Alzheimer's disease study, the most affected regions for most patients is the hippocampus, thus this region has been used in several studies.
+
+<img src="images/neuroimaging_inputs.png" alt="Neuroimaging inputs" style="height: 350px; margin: 10px; text-align: center;">
