@@ -107,7 +107,7 @@ A CNN takes as input an image and learns to associate a label to it. However, mo
 
 The layers seen before (convolutions, pooling) were adapted to work on 3D feature maps making possible the classification of MR volumes. However to use as inputs parts of the image:
 - 2D slices extracted from the volume along a particular axis,
-- 3D patches, i.e. smaller 3D volumes extracted from the full image,
+- 3D patches, i.e. smaller 3D volumes extracted from the full image with a given size and stride,
 - Regions of Interest (ROI) defined by a neuroanatomical atlas. They can be given as volumes, using a bounding box that cover the region of the ROI or by segmenting them precisely and setting the voxels that do not belong to the region to 0. It is also possible to give slices of these regions.
 
 Whereas the aim of 2D slices and 3D patches is to cover the whole brain, a selection of of ROI rely on prior knowledge on the disease studied. In the case of Alzheimer's disease study, the most affected regions for most patients is the hippocampus, thus this region has been used in several studies.
