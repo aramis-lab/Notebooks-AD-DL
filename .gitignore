@@ -3,6 +3,8 @@ __pycache__/
 *.py[cod]
 *$py.class
 .DS_Store
+data/synthetic
+results/synthetic
 
 # images
 images/*.pptx
