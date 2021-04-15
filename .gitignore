@@ -6,6 +6,18 @@ __pycache__/
 data/synthetic
 results/synthetic
 
+# Downloaded files
+*.tar.gz
+data.tsv
+example_merged.tsv
+AAL2/
+example_missing_mods/
+model_*/
+random_search/
+OasisBids_example/
+OasisCaps_example/
+OasisDatabase/
+
 # images
 images/*.pptx
 
